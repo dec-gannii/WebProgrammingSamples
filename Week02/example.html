@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,900;1,600&display=swap"
+            rel="stylesheet">
+
+        <style>
+            caption {
+                color: rgb(190, 185, 129);
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+            table {
+                border-collapse: collapse;
+                border: #4C4C4C 1px solid;
+                margin: auto;
+            }
+            td,
+            th {
+                border-collapse: collapse;
+                border: black 1px solid;
+                padding: 10px;
+            }
+            th {
+                background-color: palegoldenrod;
+            }
+            tr {
+                font-size: 12px;
+            }
+            div {
+                margin: 10px;
+            }
+            .first {
+                background-color: lightpink;
+                width: 300px;
+                text-align: center;
+                padding: 10px;
+            }
+            .second {
+                background-color: royalblue;
+                width: 250px;
+                padding: 10px;
+                text-align: center;
+            }
+            .third {
+                width: 250px;
+                padding: 10px;
+                background-color: salmon;
+                text-align: center;
+            }
+            .fourth {
+                background-color: lightsteelblue;
+                width: 300px;
+                text-align: center;
+                border: cadetblue 3px dashed;
+                padding: 10px;
+            }
+            .fifth {
+                background-color: lightgreen;
+                border: black 3px solid;
+                text-align: center;
+                padding: 10px;
+            }
+            .sixth {
+                text-align: center;
+                padding: 10px;
+                float: left;
+                margin-top: 0;
+                background-color: slateblue;
+            }
+            .seventh {
+                background-color: sandybrown;
+                text-align: center;
+                padding: 10px 10px 5px;
+                width: 180px;
+            }
+            hr {
+                margin: 40px;
+                color: black;
+                background-color: black;
+                border: black 2px solid;
+            }
+            img {
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>
+                <b>학생 정보</b>
+            </caption>
+            <tr>
+                <th>이름</th>
+                <th>학교</th>
+                <th>학과</th>
+                <th>학번</th>
+            </tr>
+            <tr>
+                <td>김가은</td>
+                <td>서울여자대학교</td>
+                <td>디지털미디어학과</td>
+                <td>2019111233</td>
+            </tr>
+        </table>
+
+        <table>
+            <caption>
+                <b>가격표</b>
+            </caption>
+            <tr>
+                <th>바 아이스크림</th>
+                <td>1000원</td>
+            </tr>
+            <tr>
+                <th>쭈쭈바</th>
+                <td>1200원</td>
+            </tr>
+            <tr>
+                <th>음료수</th>
+                <td>1500원</td>
+            </tr>
+            <tr>
+                <th>샌드위치</th>
+                <td>2000원</td>
+            </tr>
+            <tr>
+                <th>커피</th>
+                <td>1700원</td>
+            </tr>
+            <tr>
+                <th>도시락</th>
+                <td rowspan="2">3000원</td>
+            </tr>
+            <tr>
+                <th>라면 한 봉지</th>
+            </tr>
+        </table>
+
+        <hr>
+
+        <div style="float: left; margin-left: 100px; margin-top: 0px;">
+            <div class="first">안녕하세요
+                <div class="second">오늘은 9월 16일입니다.</div>
+                <div class="third">오늘은 목요일입니다.</div>
+            </div>
+            <div class="fourth">지금은 오후 2시 23분입니다.</div>
+            <div class="fifth">감사합니다.</div>
+        </div>
+        <div class="sixth">
+            <img
+                src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg">
+            <div class="seventh">자몽<i style="font-family: 'Playfair Display', serif; font-size: 13px;">(Grape Fruit)</i></div>
+        </div>
+        <div style="font-size: 13px; background-color: aquamarine;
+        font-family: 'Playfair Display', serif; margin-top: 0px; width: 400px; float: left;">
+            <div
+                style=" background-color: tan; float:
+                left; padding-left: 10px; padding-right: 10px; width: 360px;">
+                <p>Lorem Ipsum is simply dummy text of the printing and <br>
+                    typesetting industry. Lorem Ipsum has been the industry's<br>
+                    standard dummy text ever since the 1500s, when an unknown <br>
+                    printer took a galley of type and scrambled it to make a type<br>
+                    specimen book. It has survived not only five centuries,</p>
+            </div>
+            <div
+                style="background-color: skyblue; float: left;
+                padding-left: 10px; padding-right: 10px; width: 360px;">
+                <p>but also the leap into electronic typesetting, <br>
+                    remaining essentially unchanged. It was popularised <br>
+                    in the 1960s with the release of Letraset sheets <br>
+                    containing Lorem Ipsum passages, and more recently <br>
+                    with desktop publishing software like Aldus PageMaker <br>
+                    including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+    </body>
+</html>

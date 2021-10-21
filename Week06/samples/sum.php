@@ -10,11 +10,15 @@
 
             $sum = 0;
 
-            for ($i = $first_num; $i <= $second_num; $i++) {
-                $sum += $i;
+            if ($first_num <= $second_num) {
+                for ($i = $first_num; $i <= $second_num; $i++) {
+                    $sum += $i;
+                }
             }
-                
         ?>
-        <p> 첫번째 숫자부터 두 번째 숫자까지의 합 : <?=$sum?> </p>
+        <p>
+            첫번째 숫자부터 두 번째 숫자까지의 합 :
+            <?=$sum?>
+        </p>
     </body>
 </html>
